@@ -21,82 +21,82 @@ const initialProductsData = [
     price: 1800.0,
     image: require("./assets/images/img/choco.jpg"),
     quantity: 15,
-    category: "Cakes",
+    category: "BirthdayCakes",
   },
   {
     id: 5,
-    name: "Strawberry Cheesecake",
-    description: "A creamy and tangy cheesecake topped with fresh strawberries.",
+    name: "Unicorn baby cake",
+    description: "A creamy and tasty cake topped with fresh .",
     price: 1500.0,
     image: require("./assets/images/img/strawberry.jpg"),
     quantity: 8,
-    category: "Cakes",
+    category:  "BirthdayCakes",
   },
   {
     id: 6,
-    name: "Mango Delight Cake",
-    description: "A tropical mango cake with a light and airy texture, topped with fresh mango slices.",
+    name: "Butterfly Cake",
+    description: "A dedicated art of beautiful butterfly cake with fresh ingredients.",
     price: 1400.0,
     image: require("./assets/images/img/mango.jpg"),
     quantity: 12,
-    category: "Cakes",
+    category:  "BirthdayCakes",
   },
   {
     id: 7,
-    name: "Vanilla Bean Cake",
-    description: "A classic vanilla cake with a rich and aromatic vanilla bean flavor.",
+    name: "Cute Penguine Cake",
+    description: "Sweet Moments Start Here",
     price: 1100.0,
-    image: require("./assets/images/img/vanila.png"),
+    image: require("./assets/images/img/vanila.jpg"),
     quantity: 20,
-    category: "Cakes",
+    category: "BirthdayCakes",
   },
   {
     id: 8,
-    name: "Carrot Cake",
-    description: "A moist carrot cake with cream cheese frosting, spiced just right.",
+    name: "Cake",
+    description: "A moist carrot cake with cream , spiced just right.",
     price: 1300.0,
-    image: require("./assets/images/img/carot.jpeg"),
+    image: require("./assets/images/img/carot.jpg"),
     quantity: 10,
-    category: "Cakes",
+    category:  "BirthdayCakes",
   },
   {
     id: 9,
-    name: "Red Velvet Cake",
-    description: "A rich, velvety cake with cream cheese frosting and a hint of cocoa.",
+    name: "Kitkat Cake",
+    description: "A rich, kitkat cake with cream cheese frosting and a hint of cocoa.",
     price: 1600.0,
     image: require("./assets/images/img/velvet.jpg"),
     quantity: 9,
-    category: "Cakes",
+    category: "BirthdayCakes",
   },
   {
     id: 10,
-    name: "Lemon Pound Cake",
-    description: "A moist pound cake with a zesty lemon flavor and glaze.",
+    name: "Cute Bear Cake",
+    description: "Sweet Moments Start Here",
     price: 1200.0,
     image: require("./assets/images/img/lemon.jpg"),
     quantity: 10,
-    category: "Cakes",
+    category:  "BirthdayCakes",
   },
   {
     id: 11,
-    name: "Pineapple Upside Down Cake",
-    description: "A moist cake with caramelized pineapple slices on top.",
+    name: "Creamy Delight Cake",
+    description:"Sweet Moments Start Here",
     price: 1400.0,
     image: require("./assets/images/img/pinde.jpg"),
     quantity: 8,
-    category: "Cakes",
+    category: "BirthdayCakes",
   },
   {
     id: 12,
-    name: "Coffee Cake",
-    description: "A cake with a rich coffee flavor and cinnamon crumb topping.",
+    name: "Feather Cake",
+    description: "Where every bite has its own story",
     price: 1350.0,
     image: require("./assets/images/img/coffee.jpg"),
     quantity: 12,
-    category: "Cakes",
+    category:  "BirthdayCakes",
   },
 
-  // Macarons
+  // PartyCakes
   {
     id: 13,
     name: "Macaron - Pistachio",
@@ -104,7 +104,7 @@ const initialProductsData = [
     price: 500.0,
     image: require("./assets/images/img/macr.jpg"),
     quantity: 25,
-    category: "Macarons",
+    category:"PartyCakes",
   },
   {
     id: 14,
@@ -113,7 +113,7 @@ const initialProductsData = [
     price: 450.0,
     image: require("./assets/images/img/mac.jpg"),
     quantity: 30,
-    category: "Macarons",
+    category: "PartyCakes",
   },  {
     id: 20,
     name: "Macaron - Lemon",
@@ -121,7 +121,7 @@ const initialProductsData = [
     price: 440.0,
     image: require("./assets/images/img/lemon.webp"),
     quantity: 18,
-    category: "Macarons",
+    category: "PartyCakes",
   },
   {
     id: 17,
@@ -130,7 +130,7 @@ const initialProductsData = [
     price: 490.0,
     image: require("./assets/images/img/sal.jpg"),
     quantity: 25,
-    category: "Macarons",
+    category:"PartyCakes",
   },
   {
     id: 16,
@@ -139,7 +139,7 @@ const initialProductsData = [
     price: 460.0,
     image: require("./assets/images/img/whit.webp"),
     quantity: 15,
-    category: "Macarons",
+    category: "PartyCakes",
   },
  
   {
@@ -149,7 +149,7 @@ const initialProductsData = [
     price: 510.0,
     image: require("./assets/images/img/mango.webp"),
     quantity: 20,
-    category: "Macarons",
+    category: "PartyCakes",
   },
   {
     id: 19,
@@ -158,7 +158,7 @@ const initialProductsData = [
     price: 470.0,
     image: require("./assets/images/img/coffe.webp"),
     quantity: 22,
-    category: "Macarons",
+    category: "PartyCakes",
   },{
     id: 21,
     name: "Macaron - Pistachio-Rose",
@@ -166,7 +166,7 @@ const initialProductsData = [
     price: 550.0,
     image: require("./assets/images/img/ro.webp"),
     quantity: 20,
-    category: "Macarons",
+    category: "PartyCakes",
   },
   {
     id: 15,
@@ -175,11 +175,11 @@ const initialProductsData = [
     price: 480.0,
     image: require("./assets/images/img/macrr.jpg"),
     quantity: 20,
-    category: "Macarons",
+    category: "PartyCakes",
   },
   
 
-  // Party Cakes
+  //FEstivalSpecial Cakes
 
   {
     id: 22,
@@ -188,62 +188,62 @@ const initialProductsData = [
     price: 350.0,
     image: require("./assets/images/img/mangoCake.jpg"),
     quantity: 20,
-    category: "Party Cakes",
+    category: "FestivalSpecial",
   }, {
     id: 27,
-    name: "Croissant - Matcha",
-    description: "A matcha-flavored croissant with a creamy filling.",
+    name: "Chocolate-Gift box",
+    description: "A aweful gift for special occasions",
     price: 470.0,
-    image: require("./assets/images/img/mat.webp"),
+    image: require("./assets/images/img/mat.jpg"),
     quantity: 17,
-    category: "Party Cakes",
+    category: "FestivalSpecial",
   },
 
   {
     id: 23,
-    name: "Croissant - Chocolate",
-    description: "A chocolate-filled croissant.",
+    name: "Janmastmi-Special",
+    description: "Cake for the beautiful day of janmastmi.",
     price: 400.0,
-    image: require("./assets/images/img/cho.webp"),
+    image: require("./assets/images/img/cho.jpg"),
     quantity: 15,
-    category: "Party Cakes",
+    category: "FestivalSpecial",
   },
   {
     id: 24,
     name: "Croissant - Almond",
-    description: "An almond-filled croissant with sweet icing.",
+    description: "Not Availble.",
     price: 420.0,
     image: require("./assets/images/img/almond.webp"),
     quantity: 18,
-    category: "Party Cakes",
+    // category: "FestivalSpecial",
   },  {
     id: 28,
-    name: "Croissant - Vanilla Cream",
-    description: "A croissant filled with vanilla cream.",
+    name: "Chocolate Bars",
+    description: "Every bite filled with love.",
     price: 480.0,
-    image: require("./assets/images/img/van.avif"),
+    image: require("./assets/images/img/van.jpg"),
     quantity: 19,
-    category: "Party Cakes",
+    category: "FestivalSpecial",
   },
  
   {
     id: 26,
     name: "Croissant - Strawberry",
-    description: "A strawberry-filled croissant with icing sugar.",
+    description: "Chocolate bars filled with dry.",
     price: 440.0,
     image: require("./assets/images/img/cr.jpg"),
     quantity: 25,
-    category: "Party Cakes",
+    category: "FestivalSpecial",
   },
  
   {
     id: 29,
-    name: "Croissant - Lemon",
-    description: "A croissant filled with tangy lemon cream.",
+    name: "Chocolate",
+    description: "Nutella chocolate",
     price: 460.0,
     image: require("./assets/images/img/le.jpg"),
     quantity: 20,
-    category: "Party Cakes",
+    category: "FestivalSpecial",
   },
   {
     id: 30,
@@ -252,7 +252,7 @@ const initialProductsData = [
     price: 500.0,
     image: require("./assets/images/img/c.webp"),
     quantity: 18,
-    category: "Party Cakes",
+    category: "FestivalSpecial",
   }, {
     id: 25,
     name: "Croissant - Raspberry",
@@ -260,7 +260,7 @@ const initialProductsData = [
     price: 450.0,
     image: require("./assets/images/img/st.jpg"),
     quantity: 22,
-    category: "Party Cakes",
+    category: "FestivalSpecial",
   },
 ];
 
@@ -393,7 +393,8 @@ function App() {
         <Header cartItems={cartItems} />
         <div className="App">
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route 
+            path="/" element={<HomePage />} />
             <Route
               path="/products"
               element={<ProductPage products={products} addToCart={addToCart} />}

@@ -2,23 +2,25 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 const ProductPage = ({ products, addToCart }) => {
-  const { category } = useParams(); // Get category from the URL
-  const categories = ["Cakes", "Macarons", "Croissants"];
-  
+  const { category } = useParams(); // 👈 Get category from the URL
+
   const [filteredProducts, setFilteredProducts] = useState([]);
-  
+
   useEffect(() => {
-    if (category && categories.includes(category)) {
-      setFilteredProducts(products.filter((product) => product.category === category));
+    if (category) {
+      // filter products that match this category
+      setFilteredProducts(
+        products.filter((product) => product.category === category)
+      );
     } else {
-      setFilteredProducts(products); // Show all products if no category
+      setFilteredProducts(products); // show all if no category
     }
   }, [category, products]);
 
   return (
     <div className="product-page">
       <h2>{category ? `${category} Products` : "All Products"}</h2>
-      
+
       {filteredProducts.length === 0 ? (
         <p>No products available in this category.</p>
       ) : (
@@ -34,7 +36,7 @@ const ProductPage = ({ products, addToCart }) => {
                 onClick={() => addToCart(product)}
                 disabled={product.quantity <= 0}
               >
-                {product.quantity > 0 ? 'Add to Cart' : 'Out of Stock'}
+                {product.quantity > 0 ? "Add to Cart" : "Out of Stock"}
               </button>
             </div>
           ))}
